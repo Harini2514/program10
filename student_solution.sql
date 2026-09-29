@@ -1,3 +1,4 @@
+```sql
 CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
@@ -41,5 +42,6 @@ SELECT Course.CourseID,
 FROM Course
 RIGHT JOIN Enrollment
 ON Course.CourseID = Enrollment.CourseID;
+```
 
 
